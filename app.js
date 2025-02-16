@@ -61,7 +61,7 @@ function sortearAmigo(){
         alert('Hola, debes agregar al menos un amigo para poder jugar');
         return;
     }else{
-        numeroAmigoSorteado = Math.floor(Math.random() * amigos.length)+1;
+        numeroAmigoSorteado = Math.floor(Math.random() * amigos.length);
         amigoSorteado = amigos[numeroAmigoSorteado];
         console.log(amigoSorteado);
 
